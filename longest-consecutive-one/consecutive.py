@@ -12,7 +12,11 @@ class Solution:
         return longest
 
 '''
-my approach:
-------------
-1. 
+
+my approach
+***********
+1. initialize longest and count with 0
+2. iterate through nums and if a 1 is reached;
+3. increment count and assign longest the greater value of max and longest
+4. else, reset count to 0 and skip the iteration entirely
 '''
