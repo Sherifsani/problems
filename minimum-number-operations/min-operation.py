@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    
+
     # brute force approach
-    def minOperationsBrute(self, boxes: str) -> int:
+    def minOperationsBrute(self, boxes: str) -> List[int]:
         n = len(boxes)
 
         answer = [0] * n
