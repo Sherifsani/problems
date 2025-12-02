@@ -25,3 +25,16 @@ class Solution:
                 result.append(i + 1)
 
         return result
+
+# for i in range(len(nums)):
+    
+#     # if nums[abs(nums[i]) - 1] < 0:
+#     #     continue
+#     # nums[abs(nums[i]) - 1] = -nums[abs(nums[i]) - 1]
+#     print(nums)
+# res = []
+# for i in range(len(nums)):
+#     if nums[i] > 0:
+#         res.append(i + 1)
+
+# print(res)
