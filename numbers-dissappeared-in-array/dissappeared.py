@@ -10,3 +10,18 @@ class Solution:
         for i in nums:
             num_dict[i] = i
         return [i for i in num_dict.keys() if num_dict[i] == 0]
+    
+    # solution 2 (index marking)
+    def findDisappearedNumbersII(self, nums: List[int]) -> List[int] :
+        # Step 1: Mark the indices of numbers we see
+        for i in range(len(nums)):
+            index = abs(nums[i]) - 1
+            nums[index] = -abs(nums[index])
+
+        # Step 2: Collect numbers whose positions were never marked
+        result = []
+        for i in range(len(nums)):
+            if nums[i] > 0:
+                result.append(i + 1)
+
+        return result
