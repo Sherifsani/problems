@@ -1,3 +1,5 @@
+package max_profit;
+
 public class MaxProfit {
     public static void main(String[] args) {
         int[] prices = {7,6,4,3,1};
