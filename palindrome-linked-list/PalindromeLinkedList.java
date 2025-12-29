@@ -14,7 +14,7 @@ public class PalindromeLinkedList {
 
         // reverse the second half
         ListNode current = slow;
-        ListNode previous = new ListNode();
+        ListNode previous = null;
         while (current != null) {
             ListNode next = current.next;
             current.next = previous;
