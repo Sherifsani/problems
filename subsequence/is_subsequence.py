@@ -1,4 +1,6 @@
 class Solution:
+
+    # difficulty (easy)
     def subsequence(self, s: str, t: str) -> bool:
         if not s: return True
         s_ptr = 0
