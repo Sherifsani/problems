@@ -1,3 +1,8 @@
+from typing import List
+
+# difficulty (easy)
+# time complexity (O(n))
+# space complexity (O(1))
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         greatest = 0
